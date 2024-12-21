@@ -49,7 +49,7 @@ const NavBar = () => {
             <li className="">
               <a
                 className="btn"
-                href="https://chatgpt.com/"
+                href="https://github.com/Edwin-Najera"
                 target="_blank"
                 rel="noopener noreferrer"
               >

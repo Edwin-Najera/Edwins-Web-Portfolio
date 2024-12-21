@@ -9,7 +9,7 @@ interface Props {
 const AboutMe = ({ imageSrc }: Props) => {
   const [isSkillsOpen, setSkillsOpen] = useState(false);
   const [isEducationOpen, setEducationOpen] = useState(false);
-  const [isCertificationOpen, setCertificationOpen] = useState(false);
+  //const [isCertificationOpen, setCertificationOpen] = useState(false);
 
   return (
     <Fragment>
@@ -42,7 +42,7 @@ const AboutMe = ({ imageSrc }: Props) => {
       <div className="buttons-inline">
         <div className="button-container">
           <button
-            className="btn button-collapse"
+            className="btn button-collapse button"
             type="button"
             formTarget="skills"
             aria-expanded="false"
@@ -51,7 +51,7 @@ const AboutMe = ({ imageSrc }: Props) => {
             onClick={() => {
               setEducationOpen(false);
               setSkillsOpen(!isSkillsOpen);
-              setCertificationOpen(false);
+              //setCertificationOpen(false);
             }}
           >
             <span className="button-text">Skills</span>
@@ -68,7 +68,7 @@ const AboutMe = ({ imageSrc }: Props) => {
         </div>
         <div className="button-container">
           <button
-            className="btn button-collapse"
+            className="btn button"
             type="button"
             formTarget="education"
             aria-expanded="false"
@@ -77,7 +77,7 @@ const AboutMe = ({ imageSrc }: Props) => {
             onClick={() => {
               setEducationOpen(!isEducationOpen);
               setSkillsOpen(false);
-              setCertificationOpen(false);
+              //setCertificationOpen(false);
             }}
           >
             <span className="button-text">Education</span>
