@@ -53,7 +53,7 @@ const NavBar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaGithub size={30} color="#000" />
+                <FaGithub size={30} />
               </a>
             </li>
             <li className="">
@@ -63,7 +63,7 @@ const NavBar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin size={30} color="#000" />
+                <FaLinkedin size={30} />
               </a>
             </li>
           </ul>

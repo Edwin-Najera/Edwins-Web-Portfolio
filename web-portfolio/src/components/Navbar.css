@@ -4,13 +4,14 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
-  background-color: rgb(64, 166, 234);
-  color: black;
+  background-color: rgb(5, 60, 96);
+  color: rgb(255, 254, 254);
   padding: 1;
   border-color: black;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
   height: 3rem;
+  opacity: 0.8;
 }
 
 .navbar-center .nav-links {
@@ -34,7 +35,10 @@
   color:black;
   height: 100%;
   line-height: normal;
+}
 
+.btn:hover{
+  color: white;
 }
 
 

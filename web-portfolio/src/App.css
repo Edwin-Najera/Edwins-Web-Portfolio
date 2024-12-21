@@ -1,6 +1,6 @@
-.body{
+body{
+    background-image: linear-gradient(to top,rgb(3, 3, 72), rgb(13, 11, 17));
     background-color: black;
-    color:white;
 }
 
 .header {

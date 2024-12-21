@@ -6,7 +6,7 @@ import StartPage from "./components/StartPage";
 
 function App() {
   return (
-    <div className="body">
+    <div>
       <NavBar />
 
       <StartPage image={luffy} />
