@@ -42,7 +42,7 @@ const AboutMe = ({ imageSrc }: Props) => {
       <div className="buttons-inline">
         <div className="button-container">
           <button
-            className="btn button-collapse button"
+            className="btn button-collapse"
             type="button"
             formTarget="skills"
             aria-expanded="false"
@@ -68,7 +68,7 @@ const AboutMe = ({ imageSrc }: Props) => {
         </div>
         <div className="button-container">
           <button
-            className="btn button"
+            className="btn button-collapse"
             type="button"
             formTarget="education"
             aria-expanded="false"

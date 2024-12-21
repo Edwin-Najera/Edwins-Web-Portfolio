@@ -44,37 +44,7 @@
   transition: "margin-bottom 0.3s ease-in-out"
 }
 
-button::before{
-  content: "";
-  position: absolute;
-  z-index: -1;
-  background: var(--color);
-  height: auto;
-  width: auto;
-  border-radius: 50%;
-  color: white;
-}
-
-button:hover{
-  color: #ffff;
-}
-
-button::before{
-  top: 100%;
-  left: 100%;
-  transition: all 0.7s;
-}
-
-button:hover::before{
-  top: -30px;
-  left: -30px;
-}
-
-button:active::before{
-  background: #3a0ca3;
-  transition: background;
-}
- /*.button-collapse {
+.button-collapse {
   margin-left: 10px;
   align-content: center;
   position: relative;
@@ -91,7 +61,7 @@ button:active::before{
 
 .button-text {
   position: relative;
-  z-index: 1; /* Keep the text above the filling effect 
+  z-index: 1; /* Keep the text above the filling effect */
 }
 
 .filler {
@@ -100,12 +70,12 @@ button:active::before{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: grey;  /* Darker shade for the fill effect 
+  background-color: grey; /* Darker shade for the fill effect */
   border-radius: 4px;
-  transform: scaleY(0); 
+  transform: scaleY(0); /* Start with no fill */
   transform-origin: bottom;
   transition: transform 0.4s ease-in-out;
-} */
+}
 
 .button-collapse:hover .filler {
   transform: scaleY(1);
@@ -113,7 +83,7 @@ button:active::before{
 
 .button-collapse:focus {
   outline: none;
-} */
+}
 
 .txt li {
   height: auto;
