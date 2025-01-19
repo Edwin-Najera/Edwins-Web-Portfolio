@@ -9,7 +9,7 @@ interface Props {
 const AboutMe = ({ imageSrc }: Props) => {
   const [isSkillsOpen, setSkillsOpen] = useState(false);
   const [isEducationOpen, setEducationOpen] = useState(false);
-  const [isCertificationOpen, setCertificationOpen] = useState(false);
+  //const [isCertificationOpen, setCertificationOpen] = useState(false);
 
   return (
     <Fragment>
@@ -51,7 +51,7 @@ const AboutMe = ({ imageSrc }: Props) => {
             onClick={() => {
               setEducationOpen(false);
               setSkillsOpen(!isSkillsOpen);
-              setCertificationOpen(false);
+              //setCertificationOpen(false);
             }}
           >
             <span className="button-text">Skills</span>
@@ -77,7 +77,7 @@ const AboutMe = ({ imageSrc }: Props) => {
             onClick={() => {
               setEducationOpen(!isEducationOpen);
               setSkillsOpen(false);
-              setCertificationOpen(false);
+              //setCertificationOpen(false);
             }}
           >
             <span className="button-text">Education</span>
@@ -91,7 +91,7 @@ const AboutMe = ({ imageSrc }: Props) => {
             </ul>
           </Collapse>
         </div>
-        <div className="button-container">
+        {/* <div className="button-container">
           <button
             className="btn button-collapse"
             type="button"
@@ -111,7 +111,7 @@ const AboutMe = ({ imageSrc }: Props) => {
           <Collapse isOpened={isCertificationOpen}>
             <ul style={{ width: "200px" }} className="list-group"></ul>
           </Collapse>
-        </div>
+        </div> */}
       </div>
       <br />
 

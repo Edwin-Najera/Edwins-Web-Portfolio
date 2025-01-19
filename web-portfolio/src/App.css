@@ -1,11 +1,11 @@
 body{
-    background-color: blue;
-    color:white;
+  background-image: linear-gradient(to top,rgb(3, 3, 72), rgb(13, 11, 17));
+  background-color: black;
 }
 
 .header {
-    font-size: 4em;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    color: white;
-  }
+  font-size: 4em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+}

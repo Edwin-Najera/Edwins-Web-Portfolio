@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import { Link as ScrollLink } from "react-scroll";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const NavBar = () => {
@@ -7,16 +7,16 @@ const NavBar = () => {
     <div className="container-fluid sticky-top">
       <nav className="navbar">
         <div className="navbar-center nav-links container-fluid">
-          <ScrollLink
+          <button
             className="btn navbar-brand navbar-right"
-            to="startPage"
-            smooth={true}
-            duration={50}
+            onClick={() => {
+              scroll.scrollToTop({ duration: 50 });
+            }}
           >
             Edwin Najera
-          </ScrollLink>
+          </button>
           <ul className="navbar-center nav-links">
-            <li className="">
+            <li>
               <ScrollLink
                 className="btn"
                 to="AboutMe"
@@ -26,7 +26,7 @@ const NavBar = () => {
                 About
               </ScrollLink>
             </li>
-            <li className="">
+            <li>
               <ScrollLink
                 className="btn"
                 to="Projects"
@@ -36,7 +36,7 @@ const NavBar = () => {
                 Projects
               </ScrollLink>
             </li>
-            <li className="">
+            <li>
               <ScrollLink
                 className="btn"
                 to="Contact"
@@ -46,24 +46,24 @@ const NavBar = () => {
                 Contact
               </ScrollLink>
             </li>
-            <li className="">
+            <li>
               <a
                 className="btn"
-                href="https://chatgpt.com/"
+                href="https://github.com/Edwin-Najera"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaGithub size={30} color="#000" />
+                <FaGithub size={30} />
               </a>
             </li>
-            <li className="">
+            <li>
               <a
                 className="btn"
                 href="https://www.linkedin.com/in/edwin-najera-49767a30b"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedin size={30} color="#000" />
+                <FaLinkedin size={30} />
               </a>
             </li>
           </ul>
