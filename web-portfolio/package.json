@@ -1,4 +1,5 @@
 {
+  "homepage": "https://edwin-najera.github.io/Edwins-web-portfolio",
   "name": "web-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -27,6 +28,7 @@
     "eslint": "^9.17.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
+    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "react-collapse": "^5.1.1",
     "react-icons": "^5.4.0",
