@@ -1,0 +1,29 @@
+button:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+button:hover{
+    color: #ffff;
+}
+
+button:before{
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+}
+
+button:hover:before{
+    top: -30px;
+    left: -30px;
+}
+
+button:active:before{
+    background: #3a0ca3;
+    transition: background;
+}
