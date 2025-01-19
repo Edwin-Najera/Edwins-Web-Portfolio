@@ -1,0 +1,40 @@
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: rgb(64, 166, 234);
+  color: black;
+  padding: 1;
+  border-color: black;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  height: 3rem;
+}
+
+.navbar-center .nav-links {
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 0 0;
+  padding: 0;
+  margin-right: 2em;
+  font-size: 1em;
+}
+
+.navbar-center .nav-links .right{
+  margin-right:0;
+}
+
+.btn{
+  border-radius: 1;
+  color:black;
+  height: 100%;
+  line-height: normal;
+
+}
+
+

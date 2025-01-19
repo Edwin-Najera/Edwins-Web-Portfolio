@@ -1,0 +1,43 @@
+.sameLine {
+  display: flex;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.image {
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 10em;
+  display: block;
+  border-radius: 4%;
+  width: 30%;
+  /* height: 10%; */
+  object-fit: cover;
+}
+
+.text-left {
+  position: absolute;
+  bottom: 60%;
+  font-size: 4em;
+}
+
+.text-right {
+  position: absolute;
+  right: 8px;
+  bottom: 60%;
+  font-size: 4em;
+}
+
+.text-left-bottom {
+  position: absolute;
+  bottom: 55%;
+  font-size: 2rem;
+}
+
+.text-right-bottom {
+  position: absolute;
+  right: 8px;
+  bottom: 55%;
+  font-size: 2rem;
+}
